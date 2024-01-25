@@ -8,7 +8,7 @@
     <body>
         <header>
             <h1>Wunderlust Travel</h1>
-            <img src="logo.png">
+            <img src="logo.png" alt="Logo">
             <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
             <nav>
                 <ul>
@@ -154,6 +154,25 @@
             <section>
               <h2>Contact Us</h2>
               <form>
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="name">
+                <label for="name">Last Name</label>
+                <input type="text" id="name" name="name">
+
+                <fieldset>
+                  <legend>Contact Method</legend>
+                  <input type="radio" value="email">
+                  <label for="email">Email</label>
+                  <input type="radio" value="phone">
+                  <label for="phone">Text</label>
+                  <input type="radio" value="phone">
+                  <label for="phone">Phone</label>
+                </fieldset>
+
+                <label for="email">Email Adress</label>
+                <input type="email" name="email" placeholder="Enter Email">
+                <label for="tel">Phone Number</label>
+                <input type="tel" placeholder="Enter telephone number">
                 
               </form>
             </section>
@@ -167,14 +186,6 @@
 </html>
 
 
-
-Contact Us
-First Name (Enter first name)
-Last Name (Enter last name)
-
-Contact Method (Email, Text, Phone)
-Email Address (Enter Email)
-Phone Number (Enter telephone number)
 
 Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
 Travel Time (Fall, Winter, Spring, Summer, Flexible)
