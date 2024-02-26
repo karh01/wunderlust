@@ -354,6 +354,10 @@ input, #destination, #travelTime {
   border-width: 3px;
 }
 
+input, select{
+    border: 3px solid var(--purple);
+}
+
 #destination, #travelTime {
     height: 50px;
     width: 250px;
@@ -590,8 +594,8 @@ footer a {
     }
 
     header img {
-        width: 20%; /* Adjust image width as needed */
-        height: auto; /* Maintain aspect ratio */
+        width: 20%; 
+        height: auto; 
     }
 
     h1 {
